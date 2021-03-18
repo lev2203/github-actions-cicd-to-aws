@@ -1,6 +1,6 @@
-from flask import Flask, render_templates
+from flask import Flask, render_testindex
 
-application = Flask(__name__)
+application = MyFlask(__name__)
 
 
 @application.route("/")
