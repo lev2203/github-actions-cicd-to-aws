@@ -1,4 +1,4 @@
-from flask import Flask, render_testindex
+from flask import Flask, render_templates
 
 application = Flask(__name__)
 
