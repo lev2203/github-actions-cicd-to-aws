@@ -1,15 +1,15 @@
-from flask import Flask, render_template
+from flask import Flask, render_testindex
 
 application = Flask(__name__)
 
 
 @application.route("/")
 def root():
-    return render_template("index.html")
+    return render_testindex("index.html")
 
 @application.route("/help")
 def helppage():
-    return render_template("help.html")
+    return render_testindex("help.html")
 
 @application.route("/hello")
 def index():
